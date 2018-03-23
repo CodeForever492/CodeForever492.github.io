@@ -1,0 +1,112 @@
+﻿* {
+margin: 0em;
+padding: 0em;
+font-size: 100%;
+border-style: none;
+list-style-type: none;
+}
+
+
+
+
+main {
+display: block;   /*  or html5 shiv  */
+}
+
+body {
+	background-image:url("images/nature_backgrounds_perfect_backgrounds_picture_7049.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	width: 1000px;
+	height: 800px;
+}
+
+#wrapper {
+	max-width: 1000px;
+	margin: auto;
+	height: 750px;
+	margin-top: 70px;
+	border: 2px solid black;
+}
+
+
+
+header img {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin: auto;
+}
+
+
+
+nav {
+	float: left;
+	padding: 10px;
+	max-width: 100px;
+}
+
+nav ul {
+	list-style-type: none;
+	
+}
+
+nav ul a {
+	text-decoration:none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+nav a:hover {
+	color: red;
+}
+
+
+#pic {
+	float: right;
+	border: 2px solid white;
+	outline: 2px solid green;
+	margin-right: 3px;
+}
+
+
+article {
+	margin-left: 150px;
+	margin-top: 10px;
+
+}
+
+p {
+	line-height: 30px;
+}
+
+footer {
+	clear: both;
+	margin-top: 22px;
+	font-weight: bold;
+}
+
+
+footer ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	margin-left: 70px;
+}
+footer a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+footer a:hover {
+	color: red;
+}
+
+
+
+
+
+
